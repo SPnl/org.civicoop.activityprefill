@@ -11,7 +11,7 @@ function activityprefill_civicrm_buildForm($formName, &$form) {
 	  if (array_key_exists('action', $_GET) && $_GET['action'] == 'add') {
 	    try {
           $params = array(
-            'last_name' => 'Ledenadministratie',
+            'display_name' => 'Ledenadministratie',
             'email' => 'administratie@sp.nl',
           );
           $contact = civicrm_api3('Contact', 'getsingle', $params);
