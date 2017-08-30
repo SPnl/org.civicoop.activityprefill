@@ -1,0 +1,12 @@
+{
+  "name": "spnl/org.civicoop.activityprefill",
+  "description": "Fill in default values for activities",
+  "type": "civicrm-module",
+  "authors": [
+    {
+      "name": "Alain Benbassat",
+      "email": "alain.benbassat@civicoop.org"
+    }
+  ],
+  "license": "AGPL-3.0"
+}
